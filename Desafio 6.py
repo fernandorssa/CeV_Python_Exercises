@@ -1,0 +1,14 @@
+n1 = int(input('Digite um número: '))
+print('O dobro é: {}'.format(n1*2))
+print('O triplo é: {}'.format(n1*3))
+print('A raiz quadrada é: {}'.format(n1**(1/2)))
+
+'''
+n = int(input('Digite um número: ))
+d = n * 2
+t = n * 3
+r = n ** (1/2) # ordem de precedência, por isso os parênteses. Pode ser também pow(n, (1/2))
+print('O dobro de {} vale {}.'.format(n, d))
+print('O triplo de {} vale {}.\nA raiz quadrada de {} é igual à {:.2f}.'.format(n, t, n, r))
+
+'''
